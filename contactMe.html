@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="portfoliostyle.css">
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+</head>
+<body>
+<nav class="navbar">
+    <div class="navdiv">
+        <div class="logo"> <a href="index.html">ONYANGO ALGORE</a> </div>
+        <ul>
+            <li> <a href="index.html"> HOME </a></li>
+            <li> <a href="about.html"> ABOUT </a></li>
+            <li> <a href="contactMe.html"> CONTACT ME </a></li>
+        </ul>
+    </div>
+</nav>
+<section class="hero1">
+    <div class="hero-content">
+        <h1>Contact Me</h1>
+    </div>
+</section>
+
+<p>I am always looking foward to hearing from you and always welcome to feedback.</p>
+<p>Feel free to reach out to me and to engage.</p>
+
+<!-- action="index.html" IS USED FOR FORM SUBMITION BY A BACKEND LANGUAGE SUCH AS PHP-->
+<form action="index.html" method="get">
+            
+    <label for="title">Title:</label>
+
+    <label for="Mr">Mr.</label>
+    <input type="radio" id="Mr" value="Mr" name="tittle">
+
+    <label for="Mrs">Mrs.</label>
+    <input type="radio" id="Mrs" value="Mrs" name="tittle">
+
+    <label for="Ms">Ms.</label>
+    <input type="radio" id="Ms" value="Ms" name="tittle">
+    <br>
+
+    <label for="username">USERNAME:</label> 
+    <!--FOR ATTRIBUTE IS USED FOR VISUAL IMPARED PEOPLE TO HELP THEM DURING SCREEN READING-->
+    <input type="text" id="username" maxlength="18" required><br>
+
+    <label for="email">EMAIL:</label>
+    <input type="email" id="email" placeholder="example@email.com"><br>
+
+    <label for="phone">PHONE NO:</label>
+    <input type="tel" id="phone" placeholder="+254 70124 3567" maxlength="14"><br>
+
+
+    <input type="reset">
+    <input type="submit">
+ </form>
+<footer>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contactMe.html">CONTACT ME</a><br>
+
+   &copy; Algore productions <br>
+   <a href="mailto:onyangoalgore@gmail.com">onyangoalgore@gmail.com</a>
+</footer>
+</body>
+</html>
